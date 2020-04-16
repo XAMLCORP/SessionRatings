@@ -30,10 +30,13 @@ namespace Gaming.Ratings.Repositories
             await _repository.CreateTable();
         }
 
-        public async Task<List<Rating>> GetLast15RatingsBySession(Guid sessionId)
+        public async Task<List<Rating>> GetLast15RatingsBySession(Guid sessionId, int ratingFilter = 0)
         {
             var ratings = new List<Rating>();
-            var tableEntityRatings = (await _repository.FindAllByPartitionKey(sessionId.ToString())).OrderBy(rating => rating.Timestamp).Take(15);
+            var tableEntityRatings = await _repository.FindAllByPartitionKey(sessionId.ToString());
+            if (ratingFilter > 0 && ratingFilter <= 5)
+                tableEntityRatings = tableEntityRatings.Where(e => e.Value == ratingFilter).ToList();
+            tableEntityRatings = tableEntityRatings.OrderBy(rating => rating.Timestamp).Take(15).ToList();
             foreach (var rating in tableEntityRatings)
                 ratings.Add(TableEntities.RatingClientEntityConverter.ConvertTo(rating));
             Parallel.ForEach(ratings, (rating) =>
@@ -44,10 +47,13 @@ namespace Gaming.Ratings.Repositories
             return ratings;
         }
                                              
-        public async Task<List<Rating>> GetLast15RatingsOverall()
+        public async Task<List<Rating>> GetLast15RatingsOverall(int ratingFilter = 0)
         {
             var ratings = new List<Rating>();
-            var tableEntityRatings = (await _repository.FindAll()).OrderBy(rating => rating.Timestamp).Take(15);
+            var tableEntityRatings = await _repository.FindAll();
+            if (ratingFilter > 0 && ratingFilter <= 5)
+                tableEntityRatings = tableEntityRatings.Where(e => e.Value == ratingFilter).ToList();
+            tableEntityRatings = tableEntityRatings.OrderBy(rating => rating.Timestamp).Take(15).ToList();
             foreach (var rating in tableEntityRatings)
                 ratings.Add(TableEntities.RatingClientEntityConverter.ConvertTo(rating));
             Parallel.ForEach(ratings, (rating) =>

@@ -59,16 +59,16 @@ namespace Gaming.RatingService.Controllers
 
         [HttpGet]
         [Route("[action]/{sessionId}")]
-        public List<Rating> GetLast15RatingsBySession(Guid sessionId)
+        public List<Rating> GetLast15RatingsBySession(Guid sessionId, int ratingFilter = 0)
         {
-            return AsyncHelper.RunSync<List<Rating>>(() => _repository.GetLast15RatingsBySession(sessionId));
+            return AsyncHelper.RunSync<List<Rating>>(() => _repository.GetLast15RatingsBySession(sessionId, ratingFilter));
         }
 
         [HttpGet]
         [Route("[action]")]
-        public List<Rating> GetLast15RatingsOverall()
+        public List<Rating> GetLast15RatingsOverall(int ratingFilter = 0)
         {
-            return AsyncHelper.RunSync<List<Rating>>(() => _repository.GetLast15RatingsOverall());
+            return AsyncHelper.RunSync<List<Rating>>(() => _repository.GetLast15RatingsOverall(ratingFilter));
         }
 
         // This should be done on the entity using a validation library and decorated with validation attributes

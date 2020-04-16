@@ -9,8 +9,8 @@ namespace Gaming.Ratings.Interfaces.Repositories
     {
         Task CreateTable();
         Task<Rating> GetSessionRatingByUser(Guid sessionId, Guid userId);
-        Task<List<Rating>> GetLast15RatingsBySession(Guid sessionId);
-        Task<List<Rating>> GetLast15RatingsOverall();
+        Task<List<Rating>> GetLast15RatingsBySession(Guid sessionId, int ratingFilter);
+        Task<List<Rating>> GetLast15RatingsOverall(int ratingFilter);
         Task Save(Rating rating);
     }
 }
