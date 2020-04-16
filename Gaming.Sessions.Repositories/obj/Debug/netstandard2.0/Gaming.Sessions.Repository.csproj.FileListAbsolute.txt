@@ -1,0 +1,12 @@
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\bin\Debug\netstandard2.0\Gaming.Sessions.Repository.deps.json
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\bin\Debug\netstandard2.0\Gaming.Sessions.Repository.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.AssemblyInfoInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.AssemblyInfo.cs
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\bin\Debug\netstandard2.0\Gaming.Sessions.Repository.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.csprojAssemblyReference.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.csproj.CoreCompileInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\bin\Debug\netstandard2.0\Gaming.Foundation.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\bin\Debug\netstandard2.0\Gaming.Foundation.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Sessions.Repository\obj\Debug\netstandard2.0\Gaming.Sessions.Repository.csproj.CopyComplete

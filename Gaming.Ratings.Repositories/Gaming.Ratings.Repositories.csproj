@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gaming.Client.Entities\Gaming.Client.Entities.csproj" />
+    <ProjectReference Include="..\Gaming.Client.Interfaces.Services\Gaming.Client.Interfaces.Services.csproj" />
+    <ProjectReference Include="..\Gaming.Foundation\Gaming.Foundation.csproj" />
+    <ProjectReference Include="..\Gaming.Ratings.Interfaces\Gaming.Ratings.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

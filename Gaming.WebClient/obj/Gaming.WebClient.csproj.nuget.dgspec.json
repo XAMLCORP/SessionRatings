@@ -1,0 +1,493 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.WebClient\\Gaming.WebClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj",
+        "projectName": "Gaming.Client.Entities",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\Gaming.Client.Interfaces.Entities.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\Gaming.Client.Interfaces.Entities.csproj"
+              },
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\Gaming.Client.Interfaces.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\Gaming.Client.Interfaces.Entities.csproj",
+        "projectName": "Gaming.Client.Interfaces.Entities",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\Gaming.Client.Interfaces.Entities.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\Gaming.Client.Interfaces.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\Gaming.Client.Interfaces.Services.csproj",
+        "projectName": "Gaming.Client.Interfaces.Services",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\Gaming.Client.Interfaces.Services.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj",
+        "projectName": "Gaming.Foundation",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\Gaming.Sessions.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\Gaming.Sessions.Interfaces.csproj",
+        "projectName": "Gaming.Sessions.Interfaces",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\Gaming.Sessions.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\Gaming.SessionService.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\Gaming.SessionService.Client.csproj",
+        "projectName": "Gaming.SessionService.Client",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\Gaming.SessionService.Client.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Entities\\Gaming.Client.Entities.csproj"
+              },
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\Gaming.Client.Interfaces.Services.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Client.Interfaces.Services\\Gaming.Client.Interfaces.Services.csproj"
+              },
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj"
+              },
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\Gaming.Sessions.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Sessions.Interfaces\\Gaming.Sessions.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.WebClient\\Gaming.WebClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.WebClient\\Gaming.WebClient.csproj",
+        "projectName": "Gaming.WebClient",
+        "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.WebClient\\Gaming.WebClient.csproj",
+        "packagesPath": "C:\\Users\\angry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.WebClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\angry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.Foundation\\Gaming.Foundation.csproj"
+              },
+              "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\Gaming.SessionService.Client.csproj": {
+                "projectPath": "C:\\Users\\angry\\Documents\\GitHub\\SessionRatings\\Gaming.SessionService.Client\\Gaming.SessionService.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gaming.Client.Interfaces.Services</id>
+    <version>1.0.0</version>
+    <authors>Gaming.Client.Interfaces.Services</authors>
+    <owners>Gaming.Client.Interfaces.Services</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Gaming.Client.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Client.Interfaces.Services\bin\Debug\netstandard2.0\Gaming.Client.Interfaces.Services.dll" target="lib\netstandard2.0\Gaming.Client.Interfaces.Services.dll" />
+  </files>
+</package>

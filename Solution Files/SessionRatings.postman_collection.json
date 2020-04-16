@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "42735450-9781-4683-8546-106f1a68a8be",
+		"name": "SessionRatings",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllSessions",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "88a4b287-a170-4a13-bb1e-91c4bdaa259c",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44365/sessionservice/GetAllSessions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44365",
+					"path": [
+						"sessionservice",
+						"GetAllSessions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveRating",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "a8ee8558-0b46-4f66-a391-559ec983b7ea",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"value\": 5,\r\n    \"comment\": \"Super Smooooth Gameplay\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44303/ratingservice/SaveRating/4541f77c-cf18-42a1-9c63-ba699dd1e3e1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"ratingservice",
+						"SaveRating",
+						"4541f77c-cf18-42a1-9c63-ba699dd1e3e1"
+					],
+					"query": [
+						{
+							"key": "rating",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLast15RatingsOverall",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "a8ee8558-0b46-4f66-a391-559ec983b7ea",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44303/ratingservice/GetLast15RatingsOverall",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"ratingservice",
+						"GetLast15RatingsOverall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLast15RatingsBySession",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "a8ee8558-0b46-4f66-a391-559ec983b7ea",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44303/ratingservice/GetLast15RatingsBySession/4541f77c-cf18-42a1-9c63-ba699dd1e3e1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"ratingservice",
+						"GetLast15RatingsBySession",
+						"4541f77c-cf18-42a1-9c63-ba699dd1e3e1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "88a4b287-a170-4a13-bb1e-91c4bdaa259c",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44380/userservice/getuser/a9b3b49f-a9d1-48f6-80cf-2378026841a9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44380",
+					"path": [
+						"userservice",
+						"getuser",
+						"a9b3b49f-a9d1-48f6-80cf-2378026841a9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSessionRating",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Ubi-UserId",
+						"value": "a8ee8558-0b46-4f66-a391-559ec983b7ea",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44303/ratingservice/GetSessionRating/4541f77c-cf18-42a1-9c63-ba699dd1e3e1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"ratingservice",
+						"GetSessionRating",
+						"4541f77c-cf18-42a1-9c63-ba699dd1e3e1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

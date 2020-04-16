@@ -1,0 +1,16 @@
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Ratings.Entities.deps.json
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Ratings.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Ratings.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Foundation.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Interfaces.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Foundation.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Interfaces.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.csprojAssemblyReference.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.csproj.CoreCompileInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.AssemblyInfoInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.AssemblyInfo.cs
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.csproj.CopyComplete
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\obj\Debug\netstandard2.0\Gaming.Ratings.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Client.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Ratings.Entities\bin\Debug\netstandard2.0\Gaming.Client.Entities.pdb

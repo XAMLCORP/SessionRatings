@@ -1,0 +1,16 @@
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Users.Entities.deps.json
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Users.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Users.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Foundation.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Interfaces.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Foundation.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Interfaces.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.csprojAssemblyReference.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.csproj.CoreCompileInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.AssemblyInfoInputs.cache
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.AssemblyInfo.cs
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.csproj.CopyComplete
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\obj\Debug\netstandard2.0\Gaming.Users.Entities.pdb
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Client.Entities.dll
+C:\Users\angry\Documents\GitHub\SessionRatings\Gaming.Users.Entities\bin\Debug\netstandard2.0\Gaming.Client.Entities.pdb
